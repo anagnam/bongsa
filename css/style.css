@@ -1,0 +1,261 @@
+/*
+#260101
+#734439
+#D9896C
+#BF4904
+#A64F03
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Oswald', sans-serif;
+	background: #380909;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+#wrap{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;	
+}
+
+.header{
+	width: 100%;
+	height: 50px;
+	background: #661818;
+}
+
+.logo{
+	width: 67px;
+	height: 50px;
+	background: #BF4904;
+	float: left;
+	background: url("../images/logo-mobile.png") no-repeat;
+}
+
+.logo h1,
+.logo p{
+	text-indent: -9999px;
+}
+
+.player-info{
+	text-align: right;
+	float: right;
+}
+
+.player-info p{
+	padding-right: 10px;
+	font-size: 10px;
+	font-weight: 400;
+}
+
+.video-container{
+	width: 100%;
+	text-align: center;
+	float: left;
+	padding: 5px;
+
+}
+
+video{
+	max-width: 100%;
+	border: 2px solid #7c1d1d;
+	float: left;
+}
+
+.bet-container{
+	width: 100%;
+	float: left;
+}
+
+.meron-all-heading{
+	width: 22.5%;
+	float: left;
+}
+
+.meron-all-text{
+	width: 22.5%;
+	float: left;
+	padding-top: 2px;
+}
+
+.meron-bet-input{
+	width: 20%;
+	float: left;
+}
+
+.bets-heading{
+	width: 15%;
+	float: left;
+}
+
+.bets-text{
+	width: 15%;
+	float: left;
+	padding-top: 2px;
+}
+
+.wala-bet-input{
+	width: 20%;
+	float: left;
+}
+
+.wala-all-heading{
+	width: 22.5%;
+	float: left;
+}
+
+.wala-all-text{
+	width: 22.5%;
+	float: left;
+	padding-top: 2px;
+}
+
+.bet-inputs{
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	color: #260101;
+	padding: 2px auto;
+	margin: 1px auto;
+}
+
+.row-head{
+	width: 100%;
+	background: red;
+}
+
+.row-head-text{
+	font-size: 10px;
+}
+
+.row-body1{
+	width: 100%;
+	float: left;
+}
+
+/***** START ROW BODY 2*****/
+.row-body2{
+	width: 100%;
+	float: left;
+}
+
+.info1{
+	width: 30%;
+	margin-top: 2px;
+	float: left;
+}
+
+.draw{
+	width: 40%;
+	margin: 0 auto;
+	text-align: center;
+	float: left;
+}
+
+.draw input{
+	width: 50%;
+}
+
+.info2{
+	width: 30%;
+	margin-top: 2px;
+	float: left;
+}
+
+/***** END ROW BODY 2*****/
+
+
+/***** START ROW BODY 3*****/
+.row-body3{
+	width: 100%;
+	float: left;
+}
+
+.info3{
+	width: 30%;
+	float: left;
+}
+.support p{
+	padding-top: 3px;
+}
+
+.support a:link{
+	text-decoration: none;
+	color: #fff;
+}
+
+input[type="submit"]{
+	width: 40%;
+	background: #15D615;
+	font-size: 1.5em;
+	padding: 5px;
+	float: left;
+	margin-top: 5px;
+}
+
+.info4{
+	width: 30%;
+	padding-right: 10px;
+	float: left;
+}
+
+.status{
+	text-align: right;
+}
+
+.lyamado{	
+	color: green;
+	background: yellow;
+	padding: 2px;
+}
+
+.dehado{
+	color: red;
+	background: yellow;
+	padding: 2px;
+}
+
+/***** END ROW BODY 3*****/
+
+
+
+/*
+
+.chat-link{
+	width: 100%;
+	float: left;
+}
+
+.chat-link a:link,
+.history-link a:link{
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #fff;
+	background: #661818;
+	padding: 10px;
+}
+
+.bet-button-container{
+	width: 50%;
+	text-align: center;
+	float: left;
+}
+
+.history-link{
+	width: 25%;
+	float: left;
+}
+.footer{
+	width: 100%;
+	clear: both;
+}
+
+*/
